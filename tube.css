@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: rgb(20, 15, 15);
+    color: white;
+    max-width: 100%;
+}
+.wrapper {
+    max-width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+img {
+    vertical-align: middle;
+}
+input {
+    width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    background-color: rgb(29, 22, 22);
+}
+.search-icon {
+    padding: 8px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(29, 22, 22);
+    color: white;
+    margin-right: 20px;
+}
+i {
+    font-size: 20px;
+}
+.nav-right {
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding-right: 20px; */
+}
+.plus-create {
+    background-color: rgb(32, 24, 24);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.profile-img {
+    background-color: grey;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.nav-item{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+}
+.nav-list {
+    list-style: none;
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(32, 24, 24);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+}
+iframe {
+    border-radius: 15px;
+    width: 380px;
+    height: 200px;
+}
+.profile {
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+}
+.profile img {
+    width: 40px;
+    border-radius: 80%;
+    height: 30px;
+}
+.description p{
+    font-size: .8rem;
+    padding: 4px;
+}
+.frame-container {
+    padding: 10px;
+    width: 400px;
+    border-radius: 14px;
+    margin: 5px 0;
+}
+.frame-container:hover {
+    background-color: gray;
+    transition: ease 2s;
+}
